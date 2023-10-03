@@ -1,0 +1,101 @@
+
+/* Header */
+
+.logo {border-radius: 200px;
+        height: 100px;
+        width: 100px;
+        }
+
+body{background-image: url(../images/fondo2.jpg);
+background-size: cover;}
+
+ul li {display: inline-block;
+        margin: 20px;
+        }
+
+ header {display: flex;
+         }
+
+a {
+        text-decoration: none;
+        color: whitesmoke;
+}
+
+.indice {font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+ /*Footer*/        
+
+ footer {color: azure;}
+
+/*Index*/
+
+.Titulo-index {color: bisque;
+                font-family: cursive;
+                 text-align: center;}
+ 
+ .p-intro {color: bisque;
+          font-family: serif;
+          font-size: medium;
+          text-align: left;
+          border: solid;
+          width: 50%;
+         }
+ 
+ .canales {padding: 10px 20px;
+           background-color: brown;
+           color: rgb(16, 15, 14);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;}
+
+ .video {
+          margin: 20px;
+         padding: 20px;
+         text-align: center;
+                
+        }
+
+
+
+/*Relatos */
+.h2 {color: rgb(208, 193, 193);
+     font-size: 20px;
+     font-family: fantasy;
+     border: solid ;
+     width: 40%;
+     
+    }
+.Relatos {color: aliceblue;
+         font-weight: bold;
+        font-style: italic;
+        width: 50%;
+        }
+.titulor {background-position: center;
+          color: blanchedalmond;
+        font-family: monospace;}
+
+
+
+
+h2{font-size: 25px;
+font-family: unset;
+font-weight: bold;
+color: darkred;}
+
+/*Contar mi experiencia*/
+
+.formulario legend {
+color: azure;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.formulario{
+        margin: 20px;
+        padding: 20px;
+       
+}
+
