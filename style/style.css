@@ -1,33 +1,56 @@
 
 /* Header */
 
-.logo {border-radius: 200px;
-        height: 100px;
-        width: 100px;
-        }
-
-body{background-image: url(../images/fondo2.jpg);
-background-size: cover;}
-
-ul li {display: inline-block;
-        margin: 20px;
-        }
-
- header {display: flex;
-         }
-
-a {
-        text-decoration: none;
-        color: whitesmoke;
+.banner {
+        display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: black;
+    color: orange;
+    padding: 10px;
 }
 
-.indice {font-size: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
+.logo {
+        border-radius: 200px;
+        height: 100px;
+        width: 100px;}
+
+.indice ul {
+         list-style-type: none;
+         padding: 0;
+         margin: 0;}
+
+ .indice ul li {
+                display: inline;
+                margin-right: 20px;
+          }
+
+ .indice a {
+         text-decoration: none;
+         color: orange;
+            }
+
+
+body {background-image: url(../images/fondo2.jpg);
+      background-size: cover;
+      
+}
+
 
  /*Footer*/        
 
- footer {color: azure;}
+
+ .sticky-footer strong, strong {color: azure;
+         position: sticky;
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+        height: 100px;
+        font-family: cursive;
+        color: orangered;
+        margin: 10px;
+        }
+
 
 /*Index*/
 
@@ -57,6 +80,31 @@ a {
          text-align: center;
                 
         }
+
+/*Fotos de fantasmas*/
+.contenedor {
+        margin: 20px;
+        padding: 20px;
+        display:block;
+        
+}
+
+.item2 {
+        width: 50%;
+        height: 50%;
+}
+
+.contenedor, article, p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+       display: flexbox;
+
+}
+
+
+        
+
+
 
 
 
