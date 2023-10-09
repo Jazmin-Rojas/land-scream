@@ -1,6 +1,6 @@
 /* Header */
 * {
-        padding: 0;
+        padding: 0 20px;
         margin: 0;
 }
 body {
@@ -8,7 +8,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+         max-width: 100%;
         height: 100%;
         font-family: 'Roboto', sans-serif;
         background-image: url("../images/fondo2.jpg");
@@ -32,12 +32,12 @@ main {
         width: 100%;
       }
 
-.logo {
-        border-radius: 100px;
-        height: 100px;
-        width: 100px;
-        margin: 10px;
+      .logo {
+        border-radius: 50%; 
+        width: 100px; 
+        height: 100px; 
       }
+      
       
       /* Enlaces del menú */
       .indice ul {
@@ -64,15 +64,8 @@ main {
       
       /* Fondo común para el body */
       
-      /* Footer */
-      .sticky-footer {
-        color: azure;
-        text-align: center;
-        padding: 10px;
-        bottom: 0;
-        height: 100px;
-        margin: 10px;
-      }
+     
+      
       
       /* Botones o enlaces comunes */
       .btn-common {
@@ -103,10 +96,22 @@ main {
         border:none;
       }
 
-      .indexnav {
+      .indexnav a {
         text-decoration: none;
-        margin: 20px;
+        color: #333;
+        background-color: orange;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
       }
+
+      .indexnav a:hover {
+        background-color: #333;
+        color: #fff;}
 
       .indexnav h2{
         font-family: sans-serif;
@@ -199,23 +204,105 @@ main {
     }
       
     
-      /* Contar mi experiencia */
-      .formulario legend {
-        color: azure;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      }
-      
-      .formulario {
-        margin: 20px;
-        padding: 20px;
-      }
-      
-footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+ /* Contar mi experiencia */
+ .formulario {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario h2 {
+  color: orange;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: orange;
+}
+
+.formulario input[type="text"],
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid orangered;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  font-family: monospace;
+}
+
+.formulario button:hover {
+  background-color: rgb(211, 74, 74);
+}
+
+/*Redes*/
+.my-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: orange;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo1 {
+  border-radius: 50%; 
+  width: 100px; 
+  height: 100px; 
+}
+
+
+/* Enlaces del menú */
+.navired ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.navired ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navired a {
+  text-decoration: none;
+  color: orange;
+}
+
+.navired a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+ /* Footer */
+ footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: azure;
+  text-align: center;
+  padding: 10px;
 }
 
 /*media queris */
@@ -224,23 +311,25 @@ footer {
 
 body {height: auto}
 
-  .indexnav {display: flex;
-              flex-direction: column;
-              align-items: center;
-              text-align: center;
-              margin: 10px;
-              text-decoration: none;
-              color: orange;
-            }
+.indexnav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;}
 
-            .video {
-              width: 50%;
-              height: 50%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              text-align: center;
-              margin: 10px;
-}
-}
+  .indexnav a {
+    text-decoration: none;
+    color:white;}
 
+    .video .video2 {
+      width: 400px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+    }
+
+  }
