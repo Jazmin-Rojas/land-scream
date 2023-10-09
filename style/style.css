@@ -114,65 +114,91 @@ main {
         color: orangered;
         
       }
+    .p-intro {
 
+      color: white;
+    }
+     
+
+      .video2
+    {
+      height: 460px;
+      width: 560px;
+      
+    }
       
       
       /* Fotos de fantasmas */
-      .contenedor {
-        margin: 20px;
-        padding: 20px;
-        display: block;
-      }
-      
-      .item2 {
-        width: 50%;
-        height: 50%;
-      }
-      
-      .contenedor,
-      article,
-      p {
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-        color: aliceblue;
-        display: flexbox;
-      }
-      
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card
+  {
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .card img {
+    width: 350px;
+    height: 350px;
+    margin-right: 10px;
+
+  }
+
+  .card h2 {
+
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+  }
+
+  .card p {
+    font-size: 18px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
       /* Relatos */
-      .sectionrdp {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
+     .relatos-contenedor {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      justify-items: center;
+      margin: 20px;
       
-      .sectionrdp,
-      .artrdp {
-        display: flex;
-      }
+     }
       
-      .h2 {
-        color: rgb(208, 193, 193);
-        font-size: 20px;
-        font-family: fantasy;
-        border: solid;
-        width: 40%;
-      }
+     .relatos-contenedor  .h2
+    { flex-direction: column;
+      font-family: sans-serif;
+      font-weight: bolder;
+      font-size: 20px;
+      color: orange;
+      margin: 20px;
+      border: solid red;
+
+    }
+
+    .relatos {
+  
+      flex-wrap: wrap;
+      align-items: center;
+    margin: 20px;
+    border: solid orangered;
+    border-radius: 20px 20px 20px 20px;
+    }
+
+    .relatos p {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
       
-      .Relatos {
-        color: aliceblue;
-        font-weight: bold;
-        font-style: italic;
-        width: 50%;
-      }
-      
-      .titulor {
-        background-position: center;
-        color: blanchedalmond;
-        font-family: monospace;
-      }
-      
-      
-      
+    
       /* Contar mi experiencia */
       .formulario legend {
         color: azure;
@@ -191,3 +217,30 @@ footer {
         align-items: center;
         width: 100%;
 }
+
+/*media queris */
+
+@media  (max-width: 640px) {
+
+body {height: auto}
+
+  .indexnav {display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              margin: 10px;
+              text-decoration: none;
+              color: orange;
+            }
+
+            .video {
+              width: 50%;
+              height: 50%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              text-align: center;
+              margin: 10px;
+}
+}
+
