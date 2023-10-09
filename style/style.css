@@ -1,149 +1,193 @@
-
 /* Header */
+* {
+        padding: 0;
+        margin: 0;
+}
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        background-image: url("../images/fondo2.jpg");
+        background-repeat: no-repeat;
+}
+
+main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 
 .banner {
         display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    background-color: black;
-    color: orange;
-    padding: 10px;
-}
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: orange;
+        padding: 10px;
+        width: 100%;
+      }
 
 .logo {
-        border-radius: 200px;
+        border-radius: 100px;
         height: 100px;
-        width: 100px;}
-
-.indice ul {
-         list-style-type: none;
-         padding: 0;
-         margin: 0;}
-
- .indice ul li {
-                display: inline;
-                margin-right: 20px;
-          }
-
- .indice a {
-         text-decoration: none;
-         color: orange;
-            }
-
-
-body {background-image: url(../images/fondo2.jpg);
-      background-size: cover;
+        width: 100px;
+        margin: 10px;
+      }
       
-}
+      /* Enlaces del menú */
+      .indice ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
 
+      }
+      
+      .indice ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      
+      .indice a {
+        text-decoration: none;
+        color: orange;
+      }
 
- /*Footer*/        
-
-
- .sticky-footer strong, strong {color: azure;
-         position: sticky;
+      .indice a:hover {
+        color: white;
+        cursor: pointer;
+      }
+      
+      /* Fondo común para el body */
+      
+      /* Footer */
+      .sticky-footer {
+        color: azure;
         text-align: center;
         padding: 10px;
         bottom: 0;
         height: 100px;
-        font-family: cursive;
-        color: orangered;
         margin: 10px;
-        }
+      }
+      
+      /* Botones o enlaces comunes */
+      .btn-common {
+        padding: 10px 20px;
+        background-color: brown;
+        text-decoration: none !important;
+        color: rgb(16, 15, 14);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      /* Index */
+      .Titulo-index {
+        color: orange;
+        font-family: cursive;
+        text-align: center;
+      }
+      
+      section {
+        width: max-content;
+      }
 
+      article {
+        display: flex;
+        flex-wrap: wrap;
+        width:50%;
+        border:none;
+      }
 
-/*Index*/
+      .indexnav {
+        text-decoration: none;
+        margin: 20px;
+      }
 
-.Titulo-index {color: bisque;
-                font-family: cursive;
-                 text-align: center;}
- 
- .p-intro {color: bisque;
-          font-family: serif;
-          font-size: medium;
-          text-align: left;
-          border: solid;
-          width: 50%;
-         }
- 
- .canales {padding: 10px 20px;
-           background-color: brown;
-           color: rgb(16, 15, 14);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;}
+      .indexnav h2{
+        font-family: sans-serif;
+        font-size: 24px;
+        color: orangered;
+        
+      }
 
- .video {
-          margin: 20px;
-         padding: 20px;
-         text-align: center;
-                
-        }
-
-/*Fotos de fantasmas*/
-.contenedor {
+      
+      
+      /* Fotos de fantasmas */
+      .contenedor {
         margin: 20px;
         padding: 20px;
-        display:block;
-        
-}
-
-.item2 {
+        display: block;
+      }
+      
+      .item2 {
         width: 50%;
         height: 50%;
-}
-
-.contenedor, article, p {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+      .contenedor,
+      article,
+      p {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
         color: aliceblue;
-       display: flexbox;
-
-}
-
-
-        
-
-
-
-
-
-/*Relatos */
-.h2 {color: rgb(208, 193, 193);
-     font-size: 20px;
-     font-family: fantasy;
-     border: solid ;
-     width: 40%;
-     
-    }
-.Relatos {color: aliceblue;
-         font-weight: bold;
+        display: flexbox;
+      }
+      
+      /* Relatos */
+      .sectionrdp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .sectionrdp,
+      .artrdp {
+        display: flex;
+      }
+      
+      .h2 {
+        color: rgb(208, 193, 193);
+        font-size: 20px;
+        font-family: fantasy;
+        border: solid;
+        width: 40%;
+      }
+      
+      .Relatos {
+        color: aliceblue;
+        font-weight: bold;
         font-style: italic;
         width: 50%;
-        }
-.titulor {background-position: center;
-          color: blanchedalmond;
-        font-family: monospace;}
-
-
-
-
-h2{font-size: 25px;
-font-family: unset;
-font-weight: bold;
-color: darkred;}
-
-/*Contar mi experiencia*/
-
-.formulario legend {
-color: azure;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.formulario{
+      }
+      
+      .titulor {
+        background-position: center;
+        color: blanchedalmond;
+        font-family: monospace;
+      }
+      
+      
+      
+      /* Contar mi experiencia */
+      .formulario legend {
+        color: azure;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      
+      .formulario {
         margin: 20px;
         padding: 20px;
-       
+      }
+      
+footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
 }
-
