@@ -291,6 +291,11 @@ main {
   
 }
 
+.recomendh2 {
+  color: orange;
+ 
+}
+
 .contenedorecomenend .recomend1{
   display: flex;
   flex-wrap: wrap;
