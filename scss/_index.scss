@@ -1,0 +1,37 @@
+
+  .h2index {
+    font-size: 30px; 
+    -webkit-text-stroke: 2px $titulos-color; 
+    color:black; 
+    display: inline-block;
+    padding: 10px; 
+    margin: 20px;
+  }
+  
+.video{
+  h2 {
+    font-family: fantasy;
+    color: $titulos-color;
+    font-size: 34px;
+    margin: 50px;
+  }
+}
+
+
+iframe.video2 {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: calc(100vh - 100px);
+  margin-bottom: 50px;}
+   
+  
+  .degradado {
+    padding: 0;
+    color: white;
+    .pixeles-modificar {
+      height: 250px;
+      width: 200px;
+    }
+  }
+

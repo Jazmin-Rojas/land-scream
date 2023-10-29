@@ -3,71 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intrigate leyendo los relatos de personas que han tenido experiencias paranormales">
+    <meta name="keywords" content="relatos de paranormales, historias reales de fantasmas" />
     <title>LS|Relatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header class="banner">
-        <!-- logo principal-->
-           <div>
-            <a href="../index.html">
-                <img src="../images/Land Scream.png" alt="Logo" class="logo">
-            </a>
-           </div>
-           <div>
-            <nav class="indice">
-                <ul id="principal">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./Fotos-de-fanstasmas.html">Fotos de Fantasmas</a></li>
-                    <li><a href="./relatosdepersonas.html">Relatos de personas</a></li>
-                    <li><a href="./contarmiexperiencia.html">Contar mi experiencia</a></li>
-                    <li><a href="./redes.html">Nuestras Redes</a></li>
-                </ul>
-            </nav>
-           </div>     
-    </header>
-    <main>
-        <div class="relatos-contenedor">
-            <div class="relatos">
-                <h2 class="h2"> Un Familiar te visita </h2>
-                <p>Mi experiencia es bastante corta. Mi padre el cual no era alguien muy cariñoso había muerto hace unos dias
-                    yo no mantenia mucho contacto con el por cosas del pasado en resumen tipico alcoholico con problemas de manejo de ira; Una 
-                    semana después de su muerte yo estaba sirviendome té en la cocina y al mirar en el reflejo de la misma, lo veo atrás de mi.. 
-                    En un principio me asuste y quede congelada y ya cuando reaccione mire atrás mio y no había nadie, con temor volvi a mirar 
-                    la ventana pero ya no estaba... esa misma noche tube pesadillas con el que se qejaba de mi poca falta de querer hacia el, fue 
-                    aterrador.. Por semanas senti su presencia...
-                </p>
-            </div><br>
-            <div class="relatos">
-                <h2 class="h2">Te extraño</h2>
-                <p>Tenía una perrita a la cual queria mucho su nombre era Chise, era una mezcla de un perro salchicha y un poodulf
-                    ella nunca la lleve al veterinario era muy pequeña para entender que una mascota se debe llevar anualmente y mis padres no estaban
-                    muy interesados en ello. Ella se mantuvo teniendo perritos varias veces como adivinaran nunca la estirilice en uno de sus embarazos 
-                    por su avanzada edad, sus perritos murieron a dentro, por primera vez la lleve al veterinario tuvo una operación complicada
-                    ya se veía cabizbaja, a la semana siguiente murio más no por la operación, murio atropellada pero se sintió como si ella sabía que iba a morir
-                    a las semanas siguiente seguí viendola saludandola como todos los dias hata que me daba cueta que ella ya no estaba conmigo
-                    entonces siempre me ponía a llorar anhelando que todo fuera un sueño. pasaron los años y cada vez menos se me aparecía, hasta que dejo de apaecer
-                    pero cada cierto tiempo viene a saludarme..... como te extraño..
+    
+    <header class="header-modificado ">
+        <nav class="navbar navbar-expand-lg justify-content-between">
+            <!-- Botón del menú hamburguesa -->
+            <button class="navbar-toggler prueba2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon iconhamburguesa"></span>
+            </button>
 
-                </p>
-            </div >
-            <div class="relatos">
-                <h2 class="h2">Mi Amigo</h2>
-                <p>Tenía un amigo muy particular cuando era más pequeño, nadie lo podía ver además de mi, jugabamos hasta el cansancio
-                    me gustaba pasar tiempo con el, pero con el tiempo fui notando que su rostro se iba poniendo cada vez más calaverico, no sabía que estaba 
-                    pasando solo sentía un gran escalofrio cada que vez que lo veía y esto no pasaba al principio. Ya después se comenzo a tornar violento
-                    por lo que decidi contarle a mis padres los cuales preocupados me dijeron que dejara de interactuar con el, y fue tal el miedo que terminamos
-                mudandonos... nunca más lo volvi a ver </p>
+            <!-- Logo principal -->
+            <a href="../index.html">
+                <img src="../images/Land Scream.png" alt="Logo" class="logo me-4">
+            </a>
+
+            <!-- Navegación -->
+            <div class="collapse navbar-collapse .navbar.header-personalizado " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link enlaces-encabezado" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces-encabezado" href="./Fotos-de-fanstasmas.html">Fotos de Fantasmas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces-encabezado" href="./relatosdepersonas.html">Relatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces-encabezado" href="./leyendasparanormales.html">Leyendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces-encabezado" href="./redes.html">Redes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <h1 class="h1 animate__animated animate__flash">Relatos de experiencias</h1><br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Un Familiar te visita</h2>
+                        <p class="card-text">
+                            Mi experiencia es bastante corta. Mi padre el cual no era alguien muy cariñoso había muerto hace unos dias
+                            yo no mantenia mucho contacto con el por cosas del pasado en resumen tipico alcoholico con problemas de manejo de ira; Una 
+                            semana después de su muerte yo estaba sirviendome té en la cocina y al mirar en el reflejo de la misma, lo veo atrás de mi.. 
+                            En un principio me asuste y quede congelada y ya cuando reaccione mire atrás mio y no había nadie, con temor volvi a mirar 
+                            la ventana pero ya no estaba... esa misma noche tube pesadillas con el que se qejaba de mi poca falta de querer hacia el, fue 
+                            aterrador.. Por semanas senti su presencia...
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="relato card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Te extraño</h2>
+                        <p class="card-text">
+                            Tenía una perrita a la cual queria mucho su nombre era Chise, era una mezcla de un perro salchicha y un poodulf
+                            ella nunca la lleve al veterinario era muy pequeña para entender que una mascota se debe llevar anualmente y mis padres no estaban
+                            muy interesados en ello. Ella se mantuvo teniendo perritos varias veces como adivinaran nunca la estirilice en uno de sus embarazos 
+                           por su avanzada edad, sus perritos murieron a dentro, por primera vez la lleve al veterinario tuvo una operación complicada
+                           ya se veía cabizbaja, a la semana siguiente murio más no por la operación, murio atropellada pero se sintió como si ella sabía que iba a morir
+                           a las semanas siguiente seguí viendola saludandola como todos los dias hata que me daba cueta que ella ya no estaba conmigo
+                           entonces siempre me ponía a llorar anhelando que todo fuera un sueño. pasaron los años y cada vez menos se me aparecía, hasta que dejo de apaecer
+                          pero cada cierto tiempo viene a saludarme..... como te extraño..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="relato card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Mi Amigo</h2>
+                        <p class="card-text">
+                            Tenía un amigo muy particular cuando era más pequeño, nadie lo podía ver además de mi, jugabamos hasta el cansancio
+                            me gustaba pasar tiempo con el, pero con el tiempo fui notando que su rostro se iba poniendo cada vez más calaverico, no sabía que estaba 
+                            pasando solo sentía un gran escalofrio cada que vez que lo veía y esto no pasaba al principio. Ya después se comenzo a tornar violento
+                            por lo que decidi contarle a mis padres los cuales preocupados me dijeron que dejara de interactuar con el, y fue tal el miedo que terminamos
+                            mudandonos... nunca más lo volvi a ver
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Comparte tu experiencia</h2>
+                        <form action="procesar_formulario.php" method="post">
+                            <div class="mb-3">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="notificaciones">¿Deseas recibir notificaciones de reacciones?</label>
+                                <select id="notificaciones" name="notificaciones" class="form-select">
+                                    <option value="si">Sí</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="relato">Tu experiencia:</label>
+                                <textarea id="relato" name="relato" class="form-control" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="anonimo">¿Deseas que tu experiencia sea anónima?</label>
+                                <input type="checkbox" id="anonimo" name="anonimo" value="si">
+                            </div>
+                            <button type="submit" class="btn boton-cte">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <strong> Las imagenes y contenido es solo para entretención, no dependemos de ninguna autoridad para monopolizar dicho contenido, es exclusivo 
-            de nuestros Fans. </strong>
-
-    </footer>
     
+    <footer class="mt-5 py-3 footer-mine text-light">
+        <div class="container">
+            <strong class="d-block text-center">Las imágenes y el contenido son solo para entretenimiento. No dependemos de ninguna autoridad para monopolizar dicho contenido; es exclusivo de nuestros fans.</strong>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
 </html>

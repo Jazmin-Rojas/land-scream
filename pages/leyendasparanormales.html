@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contempla las fotos reales de fantasmas con su trasfondo detrás">
-    <meta name="keywords" content="fotos de fantasmas con relatos, fotos de apariciones" />
-    <title>LS|Fotos Fantasmas</title>
+    <meta name="description" content="Eriza tu piel con las leyendas del mundo sobre el mundo paranormal, algo que no te dejará dormir">
+    <meta name="keywords" content="leyendas paranormales, rituales para invocar fantasmas " />
+    <title>LS|Mi Experiencia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
@@ -40,7 +40,7 @@
                         <a class="nav-link enlaces-encabezado" href="./relatosdepersonas.html">Relatos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link enlaces-encabezado" href="./leyendasparanormales.html">Leyendas</a>
+                        <a class="nav-link enlaces-encabezado" href="#">Leyendas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link enlaces-encabezado" href="./redes.html">Redes</a>
@@ -49,37 +49,58 @@
             </div>
         </nav>
     </header>
-    <main class="container mt-5">
-        <h1 class="h1 animate__animated animate__flash">Fotos de Fantasmas con sus historias</h1><br>
-        <div class="row g-4 ">
-            <div class="col-md-4 ">
-                <div class="card  ">
-                    <img src="../images/fntasmas 1.png" class="card-img-top" alt="El retrato de un ser querido">
-                    <div class="card-body body-rel">
-                        <h2 class=" card-title pchan">Un ser Querido</h2>
-                        <p class="card-text pchan">El hombre detrás de la mujer supuestamente es su esposo fallecido hace 10 años.</p>
+    <main>
+        <div class="container mt-5">
+            <h1 class="h1 animate__animated animate__flash">Leyendas Paranormales</h1><br>
+        
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> El Espíritu del Bosque</h5>
+                            <p class="card-text">Cuenta la leyenda que en un bosque misterioso, un espíritu errante se aparece a los viajeros nocturnos, guiándolos por caminos desconocidos. Nadie sabe si sus intenciones son benevolentes o malévolas.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/fantasma 2.jpg" class="card-img-top" alt="Desconocido">
-                    <div class="card-body body-rel">
-                        <h2 class="card-title pchan">El intruso</h2>
-                        <p class="card-text pchan">En 1996 Clark se tomó una foto vestido de vaquero en el cementerio de Arizona cuando miró nuevamente la imagen se dio cuenta de que apareció una persona que no estaba en el momento de tomar la foto, creyendo que se trataba de una persona que se asomó en la foto, volvió a recrear la foto haciendo que una persona se colocara en el lugar donde estaba esta persona, lo cual era físicamente imposible porque se vería la parte inferior de su cuerpo.</p>
+        
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> La Dama de Blanco</h5>
+                            <p class="card-text">Una misteriosa dama vestida de blanco se aparece en las noches neblinosas. Dicen que su espíritu vaga en busca de su amor perdido, y quien la vea corre el riesgo de ser testigo de su tragedia.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="../images/fantasma 3.jpg" class="card-img-top" alt="Mal augurio">
-                    <div class="card-body body-rel">
-                        <h2 class="card-title pchan">Mal augurio</h2>
-                        <p class="card-text pchan">Esta terrible fotografía fue protagonizada por una familia que quería rememorar un recuerdo de su nuevo hogar en Texas, por lo cual decidieron hacer una fotografía. Lo que no esperaban es que apareciera algo tan horrible como se ve en la foto. La familia se mostró horrorizada, por lo cual decidieron no mudarse a su nuevo hogar y buscar otro, alegándole al anterior dueño que no se les había informado de su inquilino indeseado.</p>
+        
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> El Fantasma del Faro</h5>
+                            <p class="card-text">En un faro solitario, se dice que el espíritu del antiguo guardián aún vela por los barcos en la tormenta. Los marinos afirman haber visto su figura luminosa en las noches tempestuosas.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class=" form-leyends container mt-5">
+            <h2 class="display-4 mb-4">¿Sabes de algún ritual paranormal?</h5>
+        
+            <form action="procesar_formulario.php" method="POST">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre del Ritual</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ejemplo: Ritual de la Luna Llena" required>
+                </div>
+        
+                <div class="mb-3">
+                    <label for="contenido" class="form-label">Contenido del Ritual</label>
+                    <textarea class="form-control" id="contenido" name="contenido" rows="4" placeholder="Escribe aquí la descripción del ritual" required></textarea>
+                </div>
+        
+                <button type="submit" class="btn boton-cte">Subir</button>
+            </form>
+        </div>
+        
     </main>
     
     <footer class="mt-5 py-3 footer-mine text-light">

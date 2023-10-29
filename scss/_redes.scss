@@ -1,0 +1,36 @@
+.border-recortado {
+    border-width: 10px; 
+    position: relative;
+    justify-content: center;
+    margin: 50px;
+    .recomendh2{
+        align-items: center;
+        color: orange;
+        font-size: 15px;
+        margin: 20px;
+    }
+    .input-group {
+        margin: 20px;
+    .form-control {
+        margin: 20px;
+    }
+    .btn {
+        margin: 20px;
+    }
+    }
+    
+}
+
+.border-recortado::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px dashed gold; 
+}
+
+.h2red {
+    color: goldenrod;
+}

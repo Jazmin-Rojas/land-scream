@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.boton-index {
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  border: solid rgb(61, 20, 78);
+  font-family: sans-serif;
+}
+
+.boton-cte {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  border: solid rgb(61, 20, 78);
+  font-family: sans-serif;
+}
+
+.boton-red {
+  background-color: purple;
+  color: black;
+  text-align: center;
+  border: solid rgb(61, 20, 78);
+  font-family: sans-serif;
+}
+
+.degradado {
+  background-image: linear-gradient(to left, black, orangered);
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header-modificado {
+  background-color: black;
+}
+.header-modificado .enlaces-encabezado {
+  color: orange;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+}
+.header-modificado .enlaces-encabezado:hover {
+  background-color: purple;
+}
+
+.prueba2 {
+  color: orangered;
+}
+.prueba2 .iconhamburguesa {
+  background-color: purple;
+}
+
+.footer-mine {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+.h1 {
+  font-family: "Nosifer", sans-serif;
+  color: orangered;
+  margin: 20px;
+}
+
+.h2index {
+  font-size: 30px;
+  -webkit-text-stroke: 2px orangered;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+  margin: 20px;
+}
+
+.video h2 {
+  font-family: fantasy;
+  color: orangered;
+  font-size: 34px;
+  margin: 50px;
+}
+
+iframe.video2 {
+  height: 400px;
+  width: 600px;
+  max-width: 100%;
+  max-height: calc(100vh - 100px);
+  margin-bottom: 50px;
+}
+
+.degradado {
+  padding: 0;
+  color: white;
+}
+.degradado .pixeles-modificar {
+  height: 250px;
+  width: 200px;
+}
+
+.body-rel {
+  background-image: linear-gradient(to left, purple, black);
+}
+.body-rel .pchan {
+  color: white;
+}
+
+.card-body {
+  background-color: goldenrod;
+  color: black;
+}
+.card-body h2 {
+  font-family: fantasy;
+  margin: 15px;
+  text-align: center;
+}
+.card-body p {
+  font-family: unset;
+  text-align: center;
+}
+
+.form-leyends {
+  border-radius: 20px;
+  border: 2px solid gold;
+  background-color: black;
+}
+.form-leyends h2 {
+  color: orange;
+}
+.form-leyends .form-label {
+  color: orange;
+}
+
+.border-recortado {
+  border-width: 10px;
+  position: relative;
+  justify-content: center;
+  margin: 50px;
+}
+.border-recortado .recomendh2 {
+  align-items: center;
+  color: orange;
+  font-size: 15px;
+  margin: 20px;
+}
+.border-recortado .input-group {
+  margin: 20px;
+}
+.border-recortado .input-group .form-control {
+  margin: 20px;
+}
+.border-recortado .input-group .btn {
+  margin: 20px;
+}
+
+.border-recortado::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px dashed gold;
+}
+
+.h2red {
+  color: goldenrod;
+}
+
+/*# sourceMappingURL=style.css.map */

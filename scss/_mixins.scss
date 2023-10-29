@@ -1,0 +1,21 @@
+@mixin botones ($color-fondo, $color-letra){
+    background-color: $color-fondo;
+    color: $color-letra;
+    text-align: center;
+    border: solid rgb(61, 20, 78) ;
+    font-family: sans-serif;
+   
+}
+
+.boton-index {
+    @include botones(orangered, white)
+
+}
+
+.boton-cte {
+    @include botones(orange, black)
+}
+
+.boton-red {
+    @include botones(purple, black)
+}
