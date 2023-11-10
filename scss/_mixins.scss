@@ -4,12 +4,16 @@
     text-align: center;
     border: solid rgb(61, 20, 78) ;
     font-family: sans-serif;
+
+
+    }
    
-}
+
 
 .boton-index {
     @include botones(orangered, white)
-
+    
+    
 }
 
 .boton-cte {
@@ -18,4 +22,5 @@
 
 .boton-red {
     @include botones(purple, black)
+
 }
